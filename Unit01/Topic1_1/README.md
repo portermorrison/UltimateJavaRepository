@@ -27,21 +27,13 @@ VIDEO 4: Primitive Date
     string/text - msg - refer
 - primitive data types are pre-known java commands
 VIDEO 5:
--  
 
-## Leaving Notes in README.md Files
 
-Leave notes here of things you learn while watching the videos. This file is in Markdown format, which allows you to include **bold** and _italic_ text, as well as lists, links, and images. An information-dense cheatsheet for Markdown can be found [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+Questions:
 
-## Trying Out Code in Main.java Files
-
-The `Main.java` files in each folder are meant to be used to try out the code you see in the videos, to experiment with your own code, and to explore the code referenced in the assigned questions. 
-
-There should be a "Run" button at the top of the editor window that will compile and run the code in the `Main.java` file. I also encourage you to occasionally compile and run the code from the command line as this offers additional flexible ways of running the code (more details later). If your terminal is at the base directory (`UltimateJavaRepository`), you can compile and run the files like so:
+`final` means the variable is a constant, and can't change. So this, for example, isn't allowed:
 
 ```
-javac Unit01/Topic1_1/Main.java
-java Unit01.Topic1_1.Main
+final int c = 5;
+c = 6; // not allowed to change a final variable
 ```
-
-Sorry about the more complicated syntax for running the code from the command line; it's a necessary Java thing if you're going to keep your code organized in a big repository like this.
