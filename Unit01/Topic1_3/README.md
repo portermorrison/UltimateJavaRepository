@@ -5,7 +5,7 @@ Literal - The source code representation of a fixed value. CAN DO ARITHMETIC OPE
 String Literal - Enclosed in double quotes
 
 EX: literal - System.out.print(3 + 3) = 6
-EX: string literal - System.out.print("3 + 3") = 3 + 3
+EX: string literal - `System.out.print("3 + 3")` = 3 + 3
 
 
 Adition +
@@ -24,6 +24,16 @@ double + int = double
 
 IN JAVA
 int/int rounds to nearest whole number bc it has to equal int
-int % int = exact answer, shows remainder
+int % int = exact answer, division but shows remainder
 
 # VIDEO TWO
+modulus holds the same presedence as division in math equations
+- this means it must be done before addition and subtraction
+
+# Video Three
+operator equal sign
+variable = value
+a = 4
+john = happyHumanGuy
+evaluates right to left, assigns right to left
+
