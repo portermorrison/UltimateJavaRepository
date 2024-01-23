@@ -9,4 +9,4 @@ Calling non-void methods:
 - return: main ask , method answers and gives back to main, main can do whatver it likes with the anwer.
 
 # VIDEO 2
-                        
+- just repeats last vid with new examples                        
