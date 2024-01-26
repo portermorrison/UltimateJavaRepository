@@ -26,33 +26,33 @@
 
 ### Unit 1 - Primitive Types
 
-- 1.1 Why Programming? Why Java?
-- 1.2 Variables and Data Types
-- 1.3 Expressions and Assignment Statements
-- 1.4 Compound Assignment Operators
-- 1.5 Casting and Ranges of Variables
+- [1.1 Why Programming? Why Java?](Unit01/Topic1_1/README.md)
+- [1.2 Variables and Data Types](Unit01/Topic1_2/README.md)
+- [1.3 Expressions and Assignment Statements](Unit01/Topic1_3/README.md)
+- [1.4 Compound Assignment Operators](Unit01/Topic1_4/README.md)
+- [1.5 Casting and Ranges of Variables](Unit01/Topic1_5/README.md)
 
 ### Unit 2 - Using Objects
 
-- 2.1 Objects - Instances of Classes
-- 2.2 Creating and Storing Objects (Instantiation)
-- 2.3 Calling a Void Method
-- 2.4 Calling a Void Method with Parameters
-- 2.5 Calling a Non-void Method
-- 2.6 String Objects - Concatenation, Literals, and More
-- 2.7 String Methods
-- 2.8 Wrapper Classes - Integer and Double
-- 2.9 Using the Math Class
+- [2.1 Objects - Instances of Classes](Unit02/Topic2_1/README.md)
+- [2.2 Creating and Storing Objects (Instantiation)](Unit02/Topic2_2/README.md)
+- [2.3 Calling a Void Method](Unit02/Topic2_3/README.md)
+- [2.4 Calling a Void Method with Parameters](Unit02/Topic2_4/README.md)
+- [2.5 Calling a Non-void Method](Unit02/Topic2_5/README.md)
+- [2.6 String Objects - Concatenation, Literals, and More](Unit02/Topic2_6/README.md)
+- [2.7 String Methods](Unit02/Topic2_7/README.md)
+- [2.8 Wrapper Classes - Integer and Double](Unit02/Topic2_8/README.md)
+- [2.9 Using the Math Class](Unit02/Topic2_9/README.md)
 
 ### Unit 3 - Boolean Expressions & `if` Statements
 
-- 3.1 Boolean Expressions
-- 3.2 `if` Statements and Control Flow
-- 3.3 `if-else` Statements
-- 3.4 `else if` Statements
-- 3.5 Compound Boolean Expressions
-- 3.6 Equivalent Boolean Expressions
-- 3.7 Comparing Objects
+- [3.1 Boolean Expressions](Unit03/Topic3_1/README.md)
+- [3.2 `if` Statements and Control Flow](Unit03/Topic3_2/README.md)
+- [3.3 `if-else` Statements](Unit03/Topic3_3/README.md)
+- [3.4 `else if` Statements](Unit03/Topic3_4/README.md)
+- [3.5 Compound Boolean Expressions](Unit03/Topic3_5/README.md)
+- [3.6 Equivalent Boolean Expressions](Unit03/Topic3_6/README.md)
+- [3.7 Comparing Objects](Unit03/Topic3_7/README.md)
 
 ## Course Calendar
 
