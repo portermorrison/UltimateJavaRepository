@@ -1,1 +1,2 @@
 # 3.6 - Equivalent Boolean Expressions
+1. A multi-way selection is written when there are a series of conditions with different statements for each condition. Multi-way selection is performed using if -else-if statements such that exactly one section of code is executed based on the first condition that evaluates to true.
