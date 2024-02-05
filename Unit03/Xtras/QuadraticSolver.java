@@ -18,6 +18,9 @@ public class QuadraticSolver {
         if noSolutions;{
             System.out.println("No Solutions");
         } else 
+        quadradicformula = double (double pow(a,2) + double pow(b,2) == double pow(c,2));
+
+
 
 
     }
