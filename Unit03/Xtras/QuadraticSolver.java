@@ -1,4 +1,5 @@
 package Unit03.Xtras;
+
 import java.util.Scanner;
 
 public class QuadraticSolver {
@@ -15,12 +16,16 @@ public class QuadraticSolver {
         scan.close();
 
         System.out.println("equation: a + b + c = 0");
-        if noSolutions;{
+
+        double discrimnent = Math.pow(b,2) - 4 * a * c;
+
+        if (discrimnent < 0) {
             System.out.println("No Solutions");
-        } else 
-        quadradicformula = double (double pow(a,2) + double pow(b,2) == double pow(c,2));
+        } else {
+            double quadraticFormPlus = (Math.pow(b,2) + Math.sqrt(discrimnent)) / (2 * a);
+            double quadraticFormMinus = (Math.pow(b,2) - Math.sqrt(discrimnent)) / (2 * a);
 
-
+        }
 
 
     }
