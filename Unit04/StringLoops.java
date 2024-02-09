@@ -2,6 +2,14 @@ package Unit04;
 
 public class StringLoops {
 
+    public static boolean xyzThere(String str) {
+        return false;
+    }
+
+    public static String zipZap(String str) {
+        return "";
+    }
+
     public static String doubleChar(String str) {
         return "";
     }
