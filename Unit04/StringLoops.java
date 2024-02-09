@@ -3,6 +3,18 @@ package Unit04;
 public class StringLoops {
 
     public static boolean xyzThere(String str) {
+
+        for (int i = 0; i <= str.length() - 3; i++) {
+            // found an "xyz"
+            if (str.substring(i, i + 3).equals("xyz")) {
+                // if it's a ".xyz"
+                if (i > 0 && str.substring(i - 1, i).equals(".")) {
+                    // do nothing
+                } else {
+                    return true;
+                }
+            }
+        }
         return false;
     }
 
