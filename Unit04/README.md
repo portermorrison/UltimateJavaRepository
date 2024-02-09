@@ -14,6 +14,8 @@
 - standard algorithms utilze String traversals to find if onw or more substrings have a particular property
 
 ## 4.4 - Nested Iteration
+- nested iteration statements are iteration statements that appear in the body od another iteration statement.
+- when a loop is nested insided another loop, the inner loop must complete all its iterations before the outer loop can continue
 - 
 
 ## 4.5 - Informal Code Analysis
