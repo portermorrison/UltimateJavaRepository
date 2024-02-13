@@ -19,3 +19,5 @@
 - 
 
 ## 4.5 - Informal Code Analysis
+- A statement executuion sount idicates the number of times a statement is executed by the program.
+- 
