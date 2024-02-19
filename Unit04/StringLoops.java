@@ -45,7 +45,17 @@ public class StringLoops {
     }
 
     public static String doubleChar(String str) {
-        return "";
+        String result = "";
+
+        for (int i = 0; i < str.length(); i++){
+           String currentLetter = str.substring(i , i + 1);
+           result += currentLetter;
+           result += currentLetter;
+
+        }
+        
+
+        return result;
     }
 
     public static int countCode(String str) {
