@@ -47,19 +47,26 @@ public class StringLoops {
     public static String doubleChar(String str) {
         String result = "";
 
-        for (int i = 0; i < str.length(); i++){
-           String currentLetter = str.substring(i , i + 1);
-           result += currentLetter;
-           result += currentLetter;
-
+        for (int i = 0; i < str.length(); i++) {
+            String currentLetter = str.substring(i, i + 1);
+            result += currentLetter;
+            result += currentLetter;
         }
-        
 
         return result;
     }
 
-    public static int countCode(String str) {
-        return 0;
+    public static int countCode(String word) {
+        int count = 0;
+        for (int i = 0; i < word.length() - 3; i++) {
+            String part1 = word.substring(i, i + 2);
+            String part2 = word.substring(i+ 3, i + 4 );
+            if (part1.equals("co") && part2.equals("e")) {
+                System.out.println("found one");
+            }
+        }
+        return count;
+
     }
 
     public static boolean bobThere(String str) {
@@ -104,5 +111,11 @@ public class StringLoops {
 
     public static String repeatSeparator(String word, String sep, int count) {
         return "";
+    }
+
+    public static void main(String[] args) {
+        // System.out.println(doubleChar("abc"));
+        System.out.println(countCode("coffeecodecoffee"));
+
     }
 }

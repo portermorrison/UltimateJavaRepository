@@ -20,9 +20,15 @@
 - A void method does not return a value. its header contains the keyword void before the method name. 
 - A mutator (modifier) method is often a void method that changes the values of instance variables or static variables.
 ## 5.6 - Writing Methods
-- 
+- Methods can only access the private data and methods of a parameter that is a reference to an object when the parameter is the same type as the method's enclosing class.
+- Non-void methods with parameters receive values through parameters, use those values, and return a computed value of the specified type.
+- when an actual parameter is a primitive value, the formal parameter is initialized with a copuy of that value. Changes to the formal parameter have no effect on the corresponding actual parameter.
 ## 5.7 - Static Variables and Methods
-
+- Static methods are associated with the class, not objects of the class.
+- Static mehtods include the keyword 'static' in the header befor the method name.
+- Static methods cannot access or change the values of instance variables.
+- Static methods do not have a 'this' reference and are unable to use the class's instance variables or call non-static methods.
+- Static variables can be designated as either public or private and are designeated with the static keyword befor the variable type.
 ## 5.8 - Scope and Access
 
 ## 5.9 - `this` Keyword
