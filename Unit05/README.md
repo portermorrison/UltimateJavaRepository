@@ -30,7 +30,9 @@
 - Static methods do not have a 'this' reference and are unable to use the class's instance variables or call non-static methods.
 - Static variables can be designated as either public or private and are designeated with the static keyword befor the variable type.
 ## 5.8 - Scope and Access
-
+- Local variables can be declared in the body of constructors and methods. These variables may only be used within the constructor or method and cannot be declared to be 'public' or 'private'.
+- When there is a local variable with the same name as an instance variable, the variable name will refer to the local variable instead of the instanc variable
 ## 5.9 - `this` Keyword
-
+- Within a non-static method or a constructor, the keyword this is a reference ot the current object - the object whose method or constructor  is being called.
 ## 5.10 - Ethical and Social Implications of Computing Systems
+- The creation of programs has impacts on society, economies, and culture. These impacts can be beneficial and/or harmful.
